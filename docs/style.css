@@ -1,0 +1,140 @@
+* {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    outline: none;
+    box-sizing: border-box;
+    background: transparent;
+    font-family: inherit;
+  }
+  a{
+    text-decoration: none;
+  }
+  a img {
+    border: none;
+  }
+  
+  button,
+  a {
+    cursor: pointer;
+    color: inherit;
+  }
+  
+  textarea {
+    resize: none;
+  }
+  
+  button,
+  textarea,
+  select {
+    appearance: none !important;
+    border-radius: 0;
+  }
+
+  /* css reset */
+
+  body {
+      background-color: #F7E4D4;
+  }
+
+
+  section {
+    height: 100vh;
+    width: 100%;
+    position: relative;
+  }
+
+  .box {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    
+  }
+
+  @media screen and (max-width: 520px) {
+    .box {
+        width: 100%;
+        margin: 20px;
+    }
+
+  }
+
+  .box h1 {
+    font-family: 'EB Garamond', serif;
+    font-size: 48px;
+    color: #467745;
+    text-align: center;
+  }
+
+  @media screen and (max-width: 520px) {
+      .box h1 {
+          font-size: 36px;
+          text-align: left;
+          width: 100%;
+      }
+  }
+
+  .box input {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: medium;
+    font-size: 16px;
+    width: calc(100% - 40px);
+    height: 64px;
+    color: #467745;
+    background-color: #f2f2f2;
+    padding-left: 20px;
+    
+  }
+
+  @media screen and (max-width: 520px) {
+    .box input {
+      font-size: 16px;
+      max-width: 480px;
+      
+    }
+  }
+
+  .box textarea {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 16px;
+    width: calc(100% - 40px);
+    height: 120px;
+    background-color: #f2f2f2;
+    color: #467745;
+    padding-left: 20px;
+    padding-top: 20px;
+    
+  }
+
+  @media screen and (max-width: 520px) {
+    .box textarea {
+      font-size: 16px;
+      max-width: 480px;
+      
+    }
+  }
+
+  .box .container  {
+    display: inline-block;
+    position: relative;
+    font-family: 'Montserrat', sans-serif; 
+    font-size: 16px;
+    color: #467745;
+  }
+
+  .box .container input {
+    
+  }
+
+  button {
+    font-family: 'EB Garamond', serif;
+    font-size: 21px;
+    width: 280px;
+    height: 80px;
+    background-color: #467745;
+    color: #F7E4D4;
+    letter-spacing: 0.2rem;
+    border-radius: 30px;
+    margin-left: 140px;
+  }
